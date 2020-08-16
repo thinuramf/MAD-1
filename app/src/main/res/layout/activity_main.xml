@@ -18,4 +18,13 @@
         android:layout_marginLeft="31dp"
         android:layout_marginTop="47dp"
         android:text="@string/rental" />
+
+    <Button
+        android:id="@+id/usraccbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="@string/user_account"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rentalbtn" />
 </androidx.constraintlayout.widget.ConstraintLayout>

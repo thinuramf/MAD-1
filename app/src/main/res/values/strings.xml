@@ -14,4 +14,8 @@
     <string name="cancellations_should_be_made_48_hours_to_time_of_booking">Cancellations should be made 48 hours to time of booking</string>
     <string name="confirm">Confirm</string>
     <string name="total_price">Total price</string>
+
+
+
+    <string name="user_account">User Account</string>
 </resources>
