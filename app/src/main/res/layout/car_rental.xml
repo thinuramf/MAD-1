@@ -4,11 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
+    tools:context=".CarRentalActivity">
 
     <Button
-        android:id="@+id/rentalbtn"
+        android:id="@+id/menubtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -23,5 +22,5 @@
         android:layout_marginEnd="286dp"
         android:layout_marginRight="286dp"
         android:layout_marginBottom="642dp"
-        android:text="@string/rental" />
+        android:text="@string/menu" />
 </RelativeLayout>
