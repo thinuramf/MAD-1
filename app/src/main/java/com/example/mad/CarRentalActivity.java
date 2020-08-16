@@ -24,10 +24,24 @@ public class CarRentalActivity extends AppCompatActivity {
                 openMainActivity();
             }
         });
+
+
+        button = (Button) findViewById(R.id.pickuplocationbtn);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openPickUpLocationActivity();
+            }
+        });
     }
 
     public void openMainActivity(){
         Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void openPickUpLocationActivity(){
+        Intent intent = new Intent(this, PickUpLocation.class);
         startActivity(intent);
     }
 }
