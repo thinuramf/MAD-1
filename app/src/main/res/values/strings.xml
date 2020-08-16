@@ -16,14 +16,6 @@
     <string name="confirm">Confirm</string>
     <string name="total_price">Total price</string>
 
-
-
-
-    <string name="user_account">User Account</string>
-
-    <string name="rental_history">Rental History</string>
-
-
     <string-array name="Locations">
         <item>Set Pick Up Location</item>
         <item>Colombo</item>
@@ -32,4 +24,8 @@
 
     </string-array>
 
+
+    <string name="user_account">User Account</string>
+
+    <string name="rental_history">Rental History</string>
 </resources>
