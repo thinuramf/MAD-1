@@ -60,6 +60,15 @@ public class CarRentalActivity extends AppCompatActivity {
 
             }
         });
+
+        button =(Button) findViewById(R.id.historybtn);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openHistoryActivity();
+            }
+        });
+
     }
 
     public void openMainActivity(){
@@ -74,6 +83,12 @@ public class CarRentalActivity extends AppCompatActivity {
 
     public void openCalenderActivity(){
         Intent intent = new Intent(this, CalenderActivity.class);
+        startActivity(intent);
+    }
+
+
+    public void openHistoryActivity(){
+        Intent intent = new Intent(this, HistoryActivity.class);
         startActivity(intent);
     }
 }
