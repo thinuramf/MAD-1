@@ -9,18 +9,106 @@
     <Button
         android:id="@+id/menubtn"
         android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="47dp"
+        android:text="@string/menu" />
+
+    <ImageView
+        android:id="@+id/toyotaAllion"
+        android:layout_width="wrap_content"
+        android:layout_height="411dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:contentDescription="@string/toyotaallion"
+        app:srcCompat="@drawable/toyotaallion" />
+
+    <TextView
+        android:id="@+id/detailsAllion"
+        android:layout_width="303dp"
+        android:layout_height="98dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/details_of_car_border"
+        android:padding="10dp"
+        android:text="@string/details_of_the_car"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/priceAllion"
+        android:layout_width="303dp"
+        android:layout_height="98dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="488dp"
+        android:background="@drawable/details_of_car_border"
+        android:padding="10dp"
+        android:text="@string/pricing_of_rental"
+        android:textSize="18sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_below="@+id/detailsAllion"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/driver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/priceAllion"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="51dp"
+        android:text="@string/driver_required"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxYes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/priceAllion"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="170dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/yes" />
+
+    <CheckBox
+        android:id="@+id/checkBoxNo"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="37dp"
-        android:layout_marginLeft="37dp"
-        android:layout_marginTop="41dp"
-        android:layout_marginEnd="286dp"
-        android:layout_marginRight="286dp"
-        android:layout_marginBottom="642dp"
-        android:text="@string/menu" />
+        android:layout_marginStart="243dp"
+        android:layout_marginLeft="243dp"
+        android:layout_marginTop="631dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:layout_marginBottom="173dp"
+        android:text="@string/no" />
+
 </RelativeLayout>
