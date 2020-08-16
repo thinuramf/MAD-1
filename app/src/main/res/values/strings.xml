@@ -11,6 +11,7 @@
     <string name="no">No</string>
     <string name="set_pick_up_location">Set pick up location</string>
     <string name="set_date">Set date</string>
+    <string name="set_date_calendar">Set date</string>
     <string name="cancellations_should_be_made_48_hours_to_time_of_booking">Cancellations should be made 48 hours to time of booking</string>
     <string name="confirm">Confirm</string>
     <string name="total_price">Total price</string>
