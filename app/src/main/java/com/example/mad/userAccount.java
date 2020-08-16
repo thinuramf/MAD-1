@@ -23,10 +23,23 @@ public class userAccount extends AppCompatActivity {
                 openMainActivity();
             }
         });
+
+        button = (Button) findViewById(R.id.edtbtn);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openEditDetails();
+            }
+        });
     }
 
     public void openMainActivity(){
         Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void openEditDetails(){
+        Intent intent = new Intent(this, edit_details.class);
         startActivity(intent);
     }
 }
