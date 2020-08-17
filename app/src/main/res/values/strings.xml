@@ -37,6 +37,14 @@
     <string name="save_emp">Save Changes</string>
     <string name="delete_emp">Delete Profile</string>
 
+    <string name="add_name">Full Name</string>
+    <string name="add_id">NIC</string>
+    <string name="add_DOB">Date Of Birth</string>
+    <string name="add_email">Email</string>
+    <string name="add_phone">Phone Number</string>
+    <string name="add_post">Occupation</string>
+    <string name="add_docs">Add new Documents</string>
+
 
     <string-array name="Locations">
         <item>Set Pick Up Location</item>
