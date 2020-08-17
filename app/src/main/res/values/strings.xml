@@ -11,10 +11,25 @@
     <string name="no">No</string>
     <string name="set_pick_up_location">Set pick up location</string>
     <string name="set_date">Set date</string>
-    <string name="set_date_calendar">Set date</string>
     <string name="cancellations_should_be_made_48_hours_to_time_of_booking">Cancellations should be made 48 hours to time of booking</string>
     <string name="confirm">Confirm</string>
     <string name="total_price">Total price</string>
+
+
+
+    <string name="user_account">User Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="nic">NIC</string>
+    <string name="email">E-mail</string>
+    <string name="mobile">Mobile</string>
+    <string name="date_of_birth">DOB</string>
+    <string name="city">City</string>
+    <string name="register_date">Registered Date</string>
+    <string name="edit_details">Edit Details</string>
+    <string name="save_changes">Save changes</string>
+    <string name="discard">Discard</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
 
     <string-array name="Locations">
         <item>Set Pick Up Location</item>
@@ -23,6 +38,7 @@
         <item>Jaffna</item>
 
     </string-array>
+
 
 
     <string name="user_account">User Account</string>
