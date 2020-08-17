@@ -33,7 +33,7 @@
     <string name="edit_phone"></string>
     <string name="edit_post"></string>
     <string name="edit_id"></string>
-    <string name="add_docs"></string>
+
     <string name="save_emp">Save Changes</string>
     <string name="delete_emp">Delete Profile</string>
 
@@ -70,21 +70,6 @@
     <string name="last_name">Last Name</string>
 
     <string name="rental_history">Rental History</string>
-
-    <string name="drivermenu">Menu</string>
-    <string name="update_driver_details">Update Driver Details</string>
-    <string name="delete_driver">Delete Driver</string>
-    <string name="register_driver">Register Driver</string>
-    <string name="drivers">Drivers</string>
-    <string name="john_doe1">John Doe</string>
-    <string name="john_doe2">John Doe</string>
-    <string name="john_doe3">John Doe</string>
-    <string name="john_doe4">John Doe</string>
-    <string name="view1">View</string>
-    <string name="view2">View</string>
-    <string name="view3">View</string>
-    <string name="view4">View</string>
-
     <string name="profile_picture">profile picture</string>
     <string name="email1">Email</string>
     <string name="mobile1">Mobile</string>
@@ -95,5 +80,24 @@
     <string name="nic1">TextView</string>
     <string name="city1">TextView</string>
     <string name="dob1">TextView</string>
+    <string name="welcome_driver">welcome_driver</string>
+    <string name="notifications">notifications</string>
+    <string name="noti1">noti1</string>
+    <string name="payment">payment</string>
+    <string name="account">account</string>
+    <string name="todo">TODO</string>
 
+    <string name="john_doe1">john_doe1</string>
+    <string name="driver_menu">driver menu</string>
+    <string name="register_driver">register driver</string>
+    <string name="drivers">drivers</string>
+    <string name="delete_driver">delete driver</string>
+    <string name="update_driver_details">update driver details</string>
+    <string name="john_doe2">john_doe2</string>
+    <string name="john_doe3">john_doe3</string>
+    <string name="view1">view1</string>
+    <string name="view2">view2</string>
+    <string name="view3">view3</string>
+    <string name="john_doe4">john_doe4</string>
+    <string name="view4">view4</string>
 </resources>
