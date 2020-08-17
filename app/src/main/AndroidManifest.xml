@@ -9,8 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".AddEmployee"></activity>
         <activity android:name=".Employee_Profile" />
+
+        <activity android:name=".Driver_List"></activity>
+
+        <activity android:name=".EditDetails"></activity>
+
+
         <activity android:name=".userAccount" />
         <activity android:name=".HistoryActivity" />
         <activity android:name=".CalenderActivity" />
