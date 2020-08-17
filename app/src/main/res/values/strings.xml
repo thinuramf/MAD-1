@@ -17,6 +17,17 @@
     <string name="total_price">Total price</string>
 
 
+
+    <string name="v_pic">Upload Vehicle Image</string>
+    <string name="v_doc">Upload Vehicle Documents</string>
+    <string name="vehi_name">Vehicle Number</string>
+    <string name="vehi_brand">Toyota</string>
+    <string name="vehi_model">Prius</string>
+    <string name="name">Brown White</string>
+    <string name="nic12">3254635v</string>
+    <string name="number">0717534563</string>
+    <string name="save_emp">Submit</string>
+
     <string name="c_pic">Change Picture</string>
     <string name="b_pic">Browse</string>
     <string name="emp_name">Brown White</string>
@@ -35,6 +46,7 @@
     <string name="edit_id"></string>
 
     <string name="save_emp">Save Changes</string>
+
     <string name="delete_emp">Delete Profile</string>
 
     <string name="add_name">Full Name</string>

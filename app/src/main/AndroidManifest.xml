@@ -10,9 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <activity android:name=".drive_signup"></activity>
+        <activity android:name=".AddEmployee" />
+        <activity android:name=".Employee_Profile" />
+        <activity android:name=".Driver_List" />
+        <activity android:name=".EditDetails" />
+
+
         <activity android:name=".Driver_List"></activity>
 
         <activity android:name=".EditDetails"></activity>
+
 
         <activity android:name=".userAccount" />
         <activity android:name=".HistoryActivity" />
