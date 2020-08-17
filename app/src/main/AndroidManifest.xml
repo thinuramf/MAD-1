@@ -9,11 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".userAccount"></activity>
-
-        <activity android:name=".HistoryActivity"></activity>
-
+        <activity android:name=".Driver_List"></activity>
+        <activity android:name=".userAccount" />
+        <activity android:name=".HistoryActivity" />
         <activity android:name=".CalenderActivity" />
         <activity android:name=".PickUpLocation" />
         <activity android:name=".CarRentalActivity" />
