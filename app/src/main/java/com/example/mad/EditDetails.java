@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class edit_details extends AppCompatActivity {
+public class EditDetails extends AppCompatActivity {
 
     private Button button;
 
@@ -24,12 +24,11 @@ public class edit_details extends AppCompatActivity {
             }
         });
 
+
     }
 
     public void openAccDetails(){
         Intent intent = new Intent(this, userAccount.class);
         startActivity(intent);
     }
-
-
 }
