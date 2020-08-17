@@ -16,6 +16,28 @@
     <string name="confirm">Confirm</string>
     <string name="total_price">Total price</string>
 
+
+    <string name="c_pic">Change Picture</string>
+    <string name="b_pic">Browse</string>
+    <string name="emp_name">Brown White</string>
+    <string name="emp_id">981400950V</string>
+    <string name="emp_DOB">18.05.1998</string>
+    <string name="emp_email">brownwhite@gmail.com</string>
+    <string name="emp_phone">0773744756</string>
+    <string name="emp_post">Driver</string>
+    <string name="emp_docs">Add new Documents</string>
+    <string name="edit_name"></string>
+    <string name="edit_eid"></string>
+    <string name="edit_DOB"></string>
+    <string name="edit_email"></string>
+    <string name="edit_phone"></string>
+    <string name="edit_post"></string>
+    <string name="edit_id"></string>
+    <string name="add_docs"></string>
+    <string name="save_emp">Save Changes</string>
+    <string name="delete_emp">Delete Profile</string>
+
+
     <string-array name="Locations">
         <item>Set Pick Up Location</item>
         <item>Colombo</item>
