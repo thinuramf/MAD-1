@@ -40,6 +40,21 @@
     <string name="last_name">Last Name</string>
 
     <string name="rental_history">Rental History</string>
+
+    <string name="drivermenu">Menu</string>
+    <string name="update_driver_details">Update Driver Details</string>
+    <string name="delete_driver">Delete Driver</string>
+    <string name="register_driver">Register Driver</string>
+    <string name="drivers">Drivers</string>
+    <string name="john_doe1">John Doe</string>
+    <string name="john_doe2">John Doe</string>
+    <string name="john_doe3">John Doe</string>
+    <string name="john_doe4">John Doe</string>
+    <string name="view1">View</string>
+    <string name="view2">View</string>
+    <string name="view3">View</string>
+    <string name="view4">View</string>
+
     <string name="profile_picture">profile picture</string>
     <string name="email1">Email</string>
     <string name="mobile1">Mobile</string>
@@ -50,4 +65,5 @@
     <string name="nic1">TextView</string>
     <string name="city1">TextView</string>
     <string name="dob1">TextView</string>
+
 </resources>
