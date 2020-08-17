@@ -37,14 +37,8 @@ public class userAccount extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
-
-
-    public void openEditDetails(){
-        Intent intent = new Intent(this, edit_details.class);
-
     public void openEditDetails(){
         Intent intent = new Intent(this, EditDetails.class);
-
         startActivity(intent);
     }
 }
